@@ -641,7 +641,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 1,
-      images: ["/images/Photo booth.jpg"],
+      images: ["/images/photo booth.jpg"],
     },
     {
       name: "All-White Luxury Castle Bounce House",

@@ -137,7 +137,7 @@ export const categories: Category[] = [
     slug: "entertainment",
     navGroup: "rentals",
     description: "Photo booth experiences and bounce house rentals.",
-    image: "/images/Photo booth.jpg",
+    image: "/images/photo booth.jpg",
     subcategories: [
       { name: "Photo Booth", slug: "photo-booth" },
       { name: "Bounce House", slug: "bounce-house" },
