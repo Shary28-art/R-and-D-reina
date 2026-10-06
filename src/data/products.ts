@@ -340,7 +340,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Sophisticated matte black charger plates accented with a polished metallic gold rim. Creates a dramatic contrast on reception tables.",
       keywords: ["charger plates", "black and gold", "plate", "table setting"],
       totalStock: 60,
-      images: ["/images/Black & Gold charger plates.jpg"],
+      images: ["public/images/Black & Gold charger plates.jpg.jpg"],
     },
     {
       name: "Pure Gold charger plates",
