@@ -37,18 +37,17 @@ export function getTransporter() {
 
   if (gmailUser && gmailPass) {
     return nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
+      host: "smtp-relay.brevo.com",
+      port: 2525,
       secure: true,
       auth: {
-        user: gmailUser,
-        pass: gmailPass,
+        user: bd229d001@smtp-brevo.com,
+        pass: bsk8hNpXDhp8rga,
       },
       connectionTimeout: 15000,
       greetingTimeout: 15000,
     });
   }
-
   const host = process.env.SMTP_HOST;
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASS;
