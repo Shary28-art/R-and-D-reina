@@ -26,55 +26,93 @@ export interface SendEmailResult {
 
 /**
  * Creates and returns an active email transporter.
- * Supports:
- * 1. Gmail App Password (GMAIL_USER & GMAIL_APP_PASSWORD) via secure SSL port 465
- * 2. Generic SMTP (SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS)
+ * NOTE: This host blocks outbound SMTP ports (25, 465, 587, 2525), so SMTP
+ * is disabled and email is sent via the Brevo HTTP API (port 443) instead.
+ * To re-enable SMTP on a host that allows it, restore the branches below.
  */
 export function getTransporter() {
-  const gmailUser = process.env.GMAIL_USER ?? process.env.EMAIL_BUSINESS_TO ?? "rdbyreina@gmail.com";
-  const rawPass = process.env.GMAIL_APP_PASSWORD;
-  const gmailPass = rawPass ? rawPass.replace(/\s+/g, "").trim() : "";
-
- if (false) {
-    return nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
-      auth: { user: gmailUser, pass: gmailPass },
-      connectionTimeout: 15000,
-      greetingTimeout: 15000,
-    });
-  }
-  const host = process.env.SMTP_HOST;
-  const user = process.env.SMTP_USER;
-  const pass = process.env.SMTP_PASS;
-
-  if (host && user && pass) {
-    const port = Number(process.env.SMTP_PORT ?? 587);
-    const secure = process.env.SMTP_SECURE === "true" || port === 465;
-    return nodemailer.createTransport({
-      host,
-      port,
-      secure,
-      auth: { user, pass: pass.replace(/\s+/g, "").trim() },
-      connectionTimeout: 15000,
-      greetingTimeout: 15000,
-    });
-  }
-
+  // SMTP is blocked on this host. Force the Brevo HTTP API path in sendEmail().
   return null;
+
+  // --- SMTP disabled (kept for reference / other hosts) ---
+  // const host = process.env.SMTP_HOST;
+  // const user = process.env.SMTP_USER;
+  // const pass = process.env.SMTP_PASS;
+  // if (host && user && pass) {
+  //   const port = Number(process.env.SMTP_PORT ?? 587);
+  //   const secure = process.env.SMTP_SECURE === "true" || port === 465;
+  //   return nodemailer.createTransport({
+  //     host,
+  //     port,
+  //     secure,
+  //     auth: { user, pass: pass.replace(/\s+/g, "").trim() },
+  //     connectionTimeout: 15000,
+  //     greetingTimeout: 15000,
+  //   });
+  // }
+  // return null;
 }
 
 /**
- * Sends an email via Gmail/SMTP, Resend API, or development fallback.
+ * Sends an email via the Brevo HTTP API (preferred on this host), then
+ * Nodemailer SMTP/Gmail (disabled here), then Resend, then a dev notice.
  */
 export async function sendEmail(payload: EmailPayload): Promise<SendEmailResult> {
+  const fromName = "R&D by Reina";
+  const fromEmail = process.env.EMAIL_FROM_ADDRESS ?? "rdbyreina@gmail.com";
   const fromAddress =
     process.env.EMAIL_FROM ||
     (process.env.GMAIL_USER ? `"R&D by Reina" <${process.env.GMAIL_USER}>` : undefined) ||
-    '"R&D by Reina" <rdbyreina@gmail.com>';
+    `"${fromName}" <${fromEmail}>`;
 
-  // 1. Try Nodemailer (Gmail App Password or SMTP)
+  // 1. Brevo HTTP API (port 443 — works even when SMTP ports are blocked)
+  const brevoKey = process.env.BREVO_API_KEY;
+  if (brevoKey) {
+    try {
+      const res = await fetch("https://api.brevo.com/v3/smtp/email", {
+        method: "POST",
+        headers: {
+          "api-key": brevoKey,
+          "Content-Type": "application/json",
+          accept: "application/json",
+        },
+        body: JSON.stringify({
+          sender: { name: fromName, email: fromEmail },
+          to: [{ email: payload.to }],
+          replyTo: payload.replyTo ? { email: payload.replyTo } : undefined,
+          subject: payload.subject,
+          htmlContent: payload.html,
+          textContent: payload.text,
+          attachment: payload.attachments
+            ?.map((a) => ({
+              name: a.filename,
+              content: a.content
+                ? Buffer.isBuffer(a.content)
+                  ? a.content.toString("base64")
+                  : a.content
+                : undefined,
+            }))
+            .filter((a) => a.content),
+        }),
+      });
+
+      if (res.ok) {
+        const data = await res.json().catch(() => ({}));
+        console.info("[email:brevo:sent]", payload.subject, "→", payload.to, "MessageId:", data.messageId);
+        return { success: true, messageId: data.messageId };
+      }
+
+      const errorText = await res.text();
+      console.error("[email:brevo:error]", res.status, errorText);
+      return { success: false, error: `Brevo error ${res.status}: ${errorText}` };
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err);
+      console.error("[email:brevo:failed]", message);
+      return { success: false, error: message };
+    }
+  }
+
+  // 2. Nodemailer (SMTP/Gmail) — disabled on this host (getTransporter returns null)
   const transporter = getTransporter();
   if (transporter) {
     try {
@@ -96,7 +134,7 @@ export async function sendEmail(payload: EmailPayload): Promise<SendEmailResult>
     }
   }
 
-  // 2. Try Resend API if configured
+  // 3. Try Resend API if configured
   const resendKey = process.env.RESEND_API_KEY || process.env.EMAIL_PROVIDER_API_KEY;
   if (resendKey && resendKey.startsWith("re_")) {
     try {
@@ -136,11 +174,11 @@ export async function sendEmail(payload: EmailPayload): Promise<SendEmailResult>
     }
   }
 
-  // 3. Notice when email credentials not yet added
+  // 4. Notice when no email provider is configured
   const targetEmail = process.env.EMAIL_BUSINESS_TO ?? "rdbyreina@gmail.com";
   const notice =
-    `GMAIL_APP_PASSWORD is not configured in .env.local.\n` +
-    `To receive real emails at ${targetEmail}, generate a 16-character Google App Password at: https://myaccount.google.com/apppasswords and set GMAIL_APP_PASSWORD in .env.local.`;
+    `No email provider configured.\n` +
+    `To receive real emails at ${targetEmail}, set BREVO_API_KEY (from Brevo > SMTP & API > API Keys) in your environment.`;
 
   console.warn(
     `\n============================== EMAIL DISPATCH QUEUED ==============================\n` +
@@ -768,5 +806,3 @@ export async function notifyContactEmail(msg: ContactMessage): Promise<SendEmail
     html: `<pre>${JSON.stringify(msg, null, 2)}</pre>`,
   });
 }
-
-
