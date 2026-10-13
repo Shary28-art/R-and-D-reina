@@ -30,7 +30,7 @@ export interface SendEmailResult {
  * is disabled and email is sent via the Brevo HTTP API (port 443) instead.
  * To re-enable SMTP on a host that allows it, restore the branches below.
  */
-export function getTransporter() {
+export function getTransporter(): ReturnType<typeof nodemailer.createTransport> | null {
   // SMTP is blocked on this host. Force the Brevo HTTP API path in sendEmail().
   return null;
 
