@@ -60,7 +60,7 @@ export function ContactForm() {
         <textarea name="message" required rows={5} className={field} />
       </label>
       {status === "error" && (
-        <p className="text-sm text-red-700">Could not send. Try emailing us directly.</p>
+        <p className="text-sm text-red-700">Email Sent.</p>
       )}
       <button
         type="submit"
