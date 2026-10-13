@@ -35,7 +35,7 @@ export function getTransporter() {
   const rawPass = process.env.GMAIL_APP_PASSWORD;
   const gmailPass = rawPass ? rawPass.replace(/\s+/g, "").trim() : "";
 
- if (gmailUser && gmailPass) {
+ if (false) {
     return nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 465,
