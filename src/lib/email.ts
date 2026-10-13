@@ -35,15 +35,12 @@ export function getTransporter() {
   const rawPass = process.env.GMAIL_APP_PASSWORD;
   const gmailPass = rawPass ? rawPass.replace(/\s+/g, "").trim() : "";
 
-  if (gmailUser && gmailPass) {
+ if (gmailUser && gmailPass) {
     return nodemailer.createTransport({
-      host: "smtp-relay.brevo.com",
-      port: 2525,
+      host: "smtp.gmail.com",
+      port: 465,
       secure: true,
-      auth: {
-        user: bd229d001@smtp-brevo.com,
-        pass: bsk8hNpXDhp8rga,
-      },
+      auth: { user: gmailUser, pass: gmailPass },
       connectionTimeout: 15000,
       greetingTimeout: 15000,
     });
