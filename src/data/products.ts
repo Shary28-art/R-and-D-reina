@@ -27,7 +27,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 11,
-      images: ["/images/Round table.jpg"],
+      images: ["/images/Round-table.jpg"],
     },
     {
       name: "Rectangular table 6ft",
@@ -37,7 +37,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Standard 6-foot rectangular folding banquet tables seating 6 to 8 guests. Perfect for catering lines, beverage stations, and banquet dining rows.",
       keywords: ["rectangular table 6ft", "banquet table", "6ft table", "folding table"],
       totalStock: 15,
-      images: ["/images/Rectangular table 6ft.jpg"],
+      images: ["/images/Rectangular-table-6ft.jpg"],
     },
     {
       name: "Rectangular table 10ft",
@@ -48,7 +48,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       keywords: ["rectangular table 10ft", "long table", "farm table", "head table"],
       bestSeller: true,
       totalStock: 10,
-      images: ["/images/Rectangular table 10ft.jpg"],
+      images: ["/images/Rectangular-table-10ft.jpg"],
     },
   ],
   chairs: [
@@ -74,7 +74,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 140,
-      images: ["/images/Velvet Barrel.jpg"],
+      images: ["/images/Velvet-Barrel.jpg"],
     },
     {
       name: "Black & Gold Luxury Chair",
@@ -86,7 +86,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 80,
-      images: ["/images/Black and Gold.jpg"],
+      images: ["/images/Black-and-Gold.jpg"],
     },
 
     {
@@ -97,7 +97,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Elegant clear acrylic chair with a ghostly appearance, perfect for adding a touch of modernity to any event.",
       keywords: ["ghost chair", "clear chair", "acrylic chair", "modern seating"],
       totalStock: 10,
-      images: ["/images/Ghost chair.jpg"],
+      images: ["/images/Ghost-chair.jpg"],
     },
     {
       name: "Luxury Gold Chair",
@@ -107,7 +107,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "A luxurious gold chair designed for elegance and comfort, perfect for upscale events and weddings.",
       keywords: ["chair", "gold", "luxury"],
       totalStock: 5,
-      images: ["/images/Luxury Gold Chair.jpg"],
+      images: ["/images/Luxury-Gold-Chair.jpg"],
     },
   ],
   "tablecloths-napkins": [
@@ -119,7 +119,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "10-foot gauzy baby blue cheesecloth table runner with soft crinkled texture, creating an airy rustic-elegant drape over dining tables.",
       keywords: ["cheesecloth", "runner", "baby blue", "table runner"],
       totalStock: 6,
-      images: ["/images/Baby Blue Cheesecloth Table Runner 10Ft.jpg"],
+      images: ["/images/Baby-Blue-Cheesecloth-Table-Runner-10Ft.jpg"],
     },
     {
       name: "White rectangular tablecloths 8 foot",
@@ -129,7 +129,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Crisp floor-length white rectangular tablecloth tailored for standard 8-foot banquet tables. Smooth, wrinkle-resistant premium polyester.",
       keywords: ["tablecloth", "white", "rectangular", "8 foot", "banquet"],
       totalStock: 12,
-      images: ["/images/White rectangular tablecloths 8 foot.jpg"],
+      images: ["/images/White-rectangular-tablecloths-8-foot.jpg"],
     },
     {
       name: "White tablecloths Round",
@@ -141,7 +141,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 20,
-      images: ["/images/White tablecloths Round.jpg"],
+      images: ["/images/White-tablecloths-Round.jpg"],
     },
     {
       name: "Round tablecloths black",
@@ -151,7 +151,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Floor-length jet black round tablecloth for 60-inch to 72-inch rounds. Rich, deep tone delivering modern drama and high contrast.",
       keywords: ["round tablecloths black", "black tablecloth", "black linens"],
       totalStock: 10,
-      images: ["/images/Round tablecloths black.jpg"],
+      images: ["/images/Round-tablecloths-black.jpg"],
     },
     {
       name: "Rectangular tablecloths",
@@ -161,7 +161,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Durable rectangular banquet tablecloth providing crisp, professional coverage for standard buffet and dining setups.",
       keywords: ["rectangular tablecloths", "table linen", "banquet cover"],
       totalStock: 10,
-      images: ["/images/Rectangular table cloths.jpg"],
+      images: ["/images/Rectangular-table-cloths.jpg"],
     },
     {
       name: "Baby Blue Napkins",
@@ -171,7 +171,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Luxe baby blue cloth napkins with clean hemmed edges. Soft texture that folds crisply into pocket or fan designs.",
       keywords: ["baby blue napkins", "napkins", "blue linen", "table setting"],
       totalStock: 50,
-      images: ["/images/Baby Blue Napkins.jpeg"],
+      images: ["/images/Baby-Blue-Napkins.jpeg"],
     },
     {
       name: "Black Napkins",
@@ -182,7 +182,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       keywords: ["black napkins", "cloth napkins", "linens", "dinner napkins"],
       bestSeller: true,
       totalStock: 150,
-      images: ["/images/Black Napkins.jpeg"],
+      images: ["/images/Black-Napkins.jpeg"],
     },
     {
       name: "Pearl napkin decor",
@@ -192,7 +192,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Delicate pearl-beaded napkin rings adding an iridescent jewelry accent to styled place settings.",
       keywords: ["pearl napkin decor", "napkin rings", "pearls", "place setting"],
       totalStock: 50,
-      images: ["/images/Pearl napkin decor.jpg"],
+      images: ["/images/Pearl-napkin-decor.jpg"],
     },
     {
       name: "Gold Napkin decor",
@@ -202,7 +202,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Polished metallic gold napkin rings with sleek modern finish to secure napkin rolls and folds.",
       keywords: ["gold napkin decor", "napkin rings", "gold rings", "place setting"],
       totalStock: 50,
-      images: ["/images/Gold Napkin decor.jpg"],
+      images: ["/images/Gold-Napkin-decor.jpg"],
     },
   ],
   "centerpieces-candelabras": [
@@ -216,7 +216,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       newProduct: true,
       totalStock: 1,
-      images: ["/images/2pcs A8236.jpg"],
+      images: ["/images/2pcs-A8236.jpg"],
     },
     {
       name: "60cm wreath",
@@ -226,7 +226,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Circular 60 cm lush floral wreath of white garden roses and botanical foliage. Versatile as a tabletop centerpiece encircling hurricane candles or suspended overhead.",
       keywords: ["wreath", "floral", "centerpiece", "circle", "flowers"],
       totalStock: 10,
-      images: ["/images/60cm wreath.jpg"],
+      images: ["/images/60cm-wreath.jpg"],
     },
     {
       name: "2pcs A9020 50*60cm table flower/set no customize",
@@ -236,7 +236,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Coordinated set of two 50×60 cm floral tabletop arrangements styled with premium white blooms. Perfect for sweetheart dining tables and guest banquets.",
       keywords: ["table flower", "floral set", "centerpiece", "roses"],
       totalStock: 5,
-      images: ["/images/2pcs A9020.png"],
+      images: ["/images/2pcs-A9020.png"],
     },
     {
       name: "Golden Elegance Wedding Tablescape",
@@ -277,7 +277,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Full 60 cm spherical flower pomander ball crafted with dense white roses and accent greenery. Ready to rest atop floral risers, urns, or table mirrors.",
       keywords: ["flower ball", "floral sphere", "kissing ball", "centerpiece"],
       totalStock: 10,
-      images: ["/images/60cm flower ball no stand.jpg"],
+      images: ["/images/60cm-flower-ball-no-stand.jpg"],
     },
     {
       name: "200*45cm flower 5 no customize",
@@ -287,7 +287,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Extravagant 200×45 cm floral runner featuring abundant white roses and greenery, designed for long head table cascades and mantle displays.",
       keywords: ["flower runner", "floral runner", "head table", "roses"],
       totalStock: 1,
-      images: ["/images/flower 5 no customize.jpeg"],
+      images: ["/images/flower-5-no-customize.jpeg"],
     },
     {
       name: "120*45cm flower no customize",
@@ -297,7 +297,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Curated 120×45 cm floral display piece with soft ivory blooms and trailing greens for sweetheart tables or bar backsplashes.",
       keywords: ["floral arrangement", "flowers", "sweetheart", "decor"],
       totalStock: 1,
-      images: ["/images/flower no customize.jpeg"],
+      images: ["/images/flower-no-customize.jpeg"],
     },
     {
       name: "100*45cm flower no customize",
@@ -307,7 +307,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Refined 100×45 cm floral arrangement suitable for welcome easels, guest book tables, or ceremony aisle accents.",
       keywords: ["floral arrangement", "accent flower", "centerpiece"],
       totalStock: 1,
-      images: ["/images/10045cm flower no customize.jpg"],
+      images: ["/images/10045cm-flower-no-customize.jpg"],
     },
     {
       name: "45*60cm flower 8 no customize",
@@ -317,7 +317,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Lush 45×60 cm floral arrangement offering upright elegance and fresh botanical fragrance for guest dining tables.",
       keywords: ["flower arrangement", "floral", "table centerpiece"],
       totalStock: 1,
-      images: ["/images/4560cm flower 8 no customize.jpeg"],
+      images: ["/images/4560cm-flower-8-no-customize.jpeg"],
     },
     {
       name: "Flower Centerpieces for Tables: 17.7 inch",
@@ -328,7 +328,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       keywords: ["flower centerpiece", "tables", "roses", "floral dome"],
       bestSeller: true,
       totalStock: 10,
-      images: ["/images/Flower Centerpieces for Tables 17.7 inch.jpeg"],
+      images: ["/images/Flower-Centerpieces-for-Tables-17.7-inch.jpeg"],
     },
   ],
   "glassware-chargers": [
@@ -340,7 +340,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Sophisticated matte black charger plates accented with a polished metallic gold rim. Creates a dramatic contrast on reception tables.",
       keywords: ["charger plates", "black and gold", "plate", "table setting"],
       totalStock: 60,
-      images: ["/images/Black%20%26%20Gold%20charger%20plates.jpg"],
+      images: ["/images/Black-Gold-charger-plates.jpg"],
     },
     {
       name: "Pure Gold charger plates",
@@ -352,7 +352,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 200,
-      images: ["/images/Pure Gold charger plates.jpg"],
+      images: ["/images/Pure-Gold-charger-plates.jpg"],
     },
     {
       name: "White Charger plates",
@@ -362,7 +362,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Clean porcelain-style white charger plates with detailed rim. Offers a crisp, fresh look for traditional and modern weddings.",
       keywords: ["white charger plates", "chargers", "dining", "tableware"],
       totalStock: 100,
-      images: ["/images/White Charger plates.jpg"],
+      images: ["/images/White-Charger-plates.jpg"],
     },
     {
       name: "Acrylic Charger plates",
@@ -372,7 +372,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Clear acrylic charger plates with beaded border. Modern, transparent elegance that complements any tablecloth pattern.",
       keywords: ["acrylic charger", "clear charger", "plates", "modern"],
       totalStock: 50,
-      images: ["/images/Acrylic Charger plates.jpg"],
+      images: ["/images/Acrylic-Charger-plates.jpg"],
     },
     {
       name: "Clear pop shell Glasses",
@@ -383,7 +383,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       keywords: ["clear glasses", "pop shell", "goblet", "specialty glassware"],
       bestSeller: true,
       totalStock: 100,
-      images: ["/images/Clear pop shell Glasses.jpeg"],
+      images: ["/images/Clear-pop-shell-Glasses.jpeg"],
     },
   ],
   "backdrops-focal-points": [
@@ -395,7 +395,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Custom circular ceremony arbor design with structural gold frame and full 360-degree styled white and blush florals.",
       keywords: ["ceremony", "arbor", "custom", "circle"],
       totalStock: 2,
-      images: ["/images/Luxury White Wedding Welcome Display.jpg"],
+      images: ["/images/Luxury-White-Wedding-Welcome-Display.jpg"],
     },
     {
       name: "Shimmer wall –24pcs",
@@ -407,7 +407,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       newProduct: true,
       totalStock: 1,
-      images: ["/images/Shimmer wall –24pcs.jpeg"],
+      images: ["/images/Shimmer-wall-24pcs.jpeg"],
     },
     {
       name: "Backdrop Stand, 6.5x10 ft",
@@ -417,7 +417,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Heavy-duty 6.5×10 foot adjustable metal backdrop support stand for drapery, balloon garlands, and floral installations.",
       keywords: ["backdrop stand", "pipe and drape", "frame", "photo stand"],
       totalStock: 1,
-      images: ["/images/Backdrop Stand, 6.5x10 ft.jpeg"],
+      images: ["/images/Backdrop-Stand,-6.5x10-ft.jpeg"],
     },
         {
       name: "Elegant Love Story Welcome Setup",
@@ -427,7 +427,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Complete welcome setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
       keywords: ["welcome setup", "wedding backdrop", "event decoration", "photo backdrop"],
       totalStock: 1,
-      images: ["/images/love story.jpg"],
+      images: ["/images/love-story.jpg"],
     },
  
     {
@@ -438,7 +438,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Complete backdrop setup with drapery, floral arrangements, and decorative elements as pictured. Ideal for weddings, photo shoots, and events.",
       keywords: ["backdrop setup", "event backdrop", "decorative backdrop", "photo backdrop"],
       totalStock: 1,
-      images: ["/images/backdrop blue.jpg"],
+      images: ["/images/backdrop-blue.jpg"],
     },
 
     {
@@ -451,7 +451,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 3,
-      images: ["/images/Wood arch.jpg"],
+      images: ["/images/Wood-arch.jpg"],
     },
   ],
   "lounge-throne-seating": [
@@ -473,7 +473,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Curved modular cream sofa sections configurable for VIP lounges, cocktail areas, and modern chic receptions.",
       keywords: ["sofa", "lounge", "cream", "boucle"],
       totalStock: 3,
-      images: ["/images/modular lounge.jpg"],
+      images: ["/images/modular-lounge.jpg"],
     },
     {
       name: "Modular Cream Sofa",
@@ -493,7 +493,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Sculptural designer lounge chair with brushed gold frame and textured ivory upholstery.",
       keywords: ["lounge", "chair", "gold", "armchair"],
       totalStock: 8,
-      images: ["/images/Modern Sculptural Armchair — Gold & Ivory.jpeg"],
+      images: ["/images/Modern-Sculptural-Armchair-Gold-Ivory.jpeg"],
     },
     {
       name: "King Throne Chair — Black Velvet & Gold",
@@ -503,7 +503,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Regal black velvet and hand-carved gold trim throne chair for milestone birthdays, quinces, and statement photo moments.",
       keywords: ["throne", "black", "gold", "chair", "king"],
       totalStock: 2,
-      images: ["/images/King Throne Chair — Black Velvet & Gold.jpg"],
+      images: ["/images/King-Throne-Chair-Black-Velvet-Gold.jpg"],
     },
   ],
   kids: [
@@ -517,7 +517,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 10,
-      images: ["/images/Kids Luxury Chiavari Banquet Party Package.jpeg"],
+      images: ["/images/Kids-Luxury-Chiavari-Banquet-Party-Package.jpeg"],
     },
     {
       name: "Kids White Folding Craft Table",
@@ -527,7 +527,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Child-height folding table in clean white for dining, crafts, and children dessert tables.",
       keywords: ["kids", "table", "children", "craft"],
       totalStock: 20,
-      images: ["/images/Kids White Folding Craft Table.jpg"],
+      images: ["/images/Kids-White-Folding-Craft-Table.jpg"],
     },
     {
       name: "Kids Chiavari Chair — Gloss White",
@@ -537,7 +537,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Properly scaled chiavari chair in high-gloss white for young guests at formal celebrations and birthday parties.",
       keywords: ["kids", "chair", "chiavari", "white"],
       totalStock: 40,
-      images: ["/images/Kids Chiavari Chair — Gloss White.jpeg"],
+      images: ["/images/Kids-Chiavari-Chair-Gloss-White.jpeg"],
     },
     {
       name: "Kids Pastel Balloon Centerpiece Cluster",
@@ -547,7 +547,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Playful pastel balloon cluster arrangement designed for kids tables, activity stations, and dessert bars.",
       keywords: ["kids", "balloon", "decor", "centerpiece"],
       totalStock: 10,
-      images: ["/images/Kids Pastel Balloon Centerpiece Cluster.jpg"],
+      images: ["/images/Kids-Pastel-Balloon-Centerpiece-Cluster.jpg"],
     },
   ],
   "candles-decor": [
@@ -561,7 +561,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 18,
-      images: ["/images/candle decor.jpg"],
+      images: ["/images/candle-decor.jpg"],
     },
     {
       name: "Chandelier decor",
@@ -571,7 +571,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Ornate hanging crystal chandelier decor piece adding regal brilliance to canopies, arches, and stage ceilings.",
       keywords: ["chandelier", "crystal", "lighting", "decor", "hanging"],
       totalStock: 2,
-      images: ["/images/Chandelier decor.jpg"],
+      images: ["/images/Chandelier-decor.jpg"],
     },
   ],
   "cake-stands-treat-tables": [
@@ -585,7 +585,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       newProduct: true,
       totalStock: 2,
-      images: ["/images/candy cart.jpg"],
+      images: ["/images/candy-cart.jpg"],
     },
     {
       name: "Decorative Treat Cart",
@@ -597,7 +597,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       newProduct: true,
       totalStock: 2,
-      images: ["/images/treat cart.jpg"],
+      images: ["/images/treat-cart.jpg"],
     },
     {
       name: "Three-Tier Crystal Wedding Cake Stand",
@@ -607,7 +607,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Crystal-embellished three-tier pedestal stand for multi-layer wedding cakes, cupcakes, and dessert service.",
       keywords: ["cake stand", "crystal", "tier"],
       totalStock: 10,
-      images: ["/images/Three-Tier Crystal Wedding Cake Stand.jpg"],
+      images: ["/images/Three-Tier-Crystal-Wedding-Cake-Stand.jpg"],
     },
     {
       name: "Rustic White Wood Dessert Table — 6 ft",
@@ -617,7 +617,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Distressed vintage white wood dessert table with lower shelving for rustic-chic dessert and treat presentations.",
       keywords: ["dessert", "table", "vintage", "rustic"],
       totalStock: 5,
-      images: ["/images/Rustic White Wood Dessert Table — 6 ft.jpeg"],
+      images: ["/images/Rustic-White-Wood-Dessert-Table-6-ft.jpeg"],
     },
     {
       name: "Clear Acrylic Treat Display Risers — Set of 3",
@@ -627,7 +627,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Set of 3 seamless acrylic risers for displaying cupcakes, macarons, and artisanal petit fours at varied heights.",
       keywords: ["treat", "display", "acrylic", "riser"],
       totalStock: 12,
-      images: ["/images/Clear Acrylic Treat Display Risers — Set of 3.jpeg"],
+      images: ["/images/Clear-Acrylic-Treat-Display-Risers-Set-of-3.jpeg"],
     },
   ],
   entertainment: [
@@ -641,7 +641,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 1,
-      images: ["/images/photo booth.jpg"],
+      images: ["/images/photo-booth.jpg"],
     },
     {
       name: "All-White Luxury Castle Bounce House",
@@ -651,7 +651,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Aesthetic all-white luxury castle bounce house for birthdays, family festivals, and high-end celebrations.",
       keywords: ["bounce house", "white castle", "entertainment"],
       totalStock: 1,
-      images: ["/images/All-White Luxury Castle Bounce House.jpeg"],
+      images: ["/images/All-White-Luxury-Castle-Bounce-House.jpeg"],
     },
   ],
   production: [
@@ -664,7 +664,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       keywords: ["tent", "canopy", "marquee", "outdoor", "banquet"],
       featured: true,
       totalStock: 3,
-      images: ["/images/Outdoor Marquee Tent & Banquet Pavilion.jpeg"],
+      images: ["/images/Outdoor-Marquee-Tent-Banquet-Pavilion.jpeg"],
     },
     {
       name: "Wireless Warm Amber LED Uplighting Fixture",
@@ -674,7 +674,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Battery-powered wireless warm-white and amber LED fixture to wash walls, draping, and perimeter features.",
       keywords: ["uplight", "lighting", "production", "led"],
       totalStock: 24,
-      images: ["/images/Wireless Warm Amber LED Uplighting Fixture.jpeg"],
+      images: ["/images/Wireless-Warm-Amber-LED-Uplighting-Fixture.jpeg"],
     },
     {
       name: "Heavyweight Velvet Pipe & Drape — 10 ft Section",
@@ -684,7 +684,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Black or ivory flame-retardant heavyweight velvet drape section with telescopic support uprights to divide spaces or create backdrops.",
       keywords: ["drape", "pipe", "production", "velvet"],
       totalStock: 20,
-      images: ["/images/Heavyweight Velvet Pipe & Drape — 10 ft Section.jpeg"],
+      images: ["/images/Heavyweight-Velvet-Pipe-Drape-10-ft-Section.jpeg"],
     },
     {
       name: "High-Gloss White Dance Floor — 12×12 ft",
@@ -694,7 +694,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Interlocking high-gloss white dance floor system with beveled perimeter edge. Seamless luxury floor covering 144 sq ft.",
       keywords: ["dance floor", "production", "white", "gloss"],
       totalStock: 2,
-      images: ["/images/High-Gloss White Dance Floor — 12×12 ft.jpeg"],
+      images: ["/images/High-Gloss-White-Dance-Floor-12×12-ft.jpeg"],
     },
   ],
   balloons: [
@@ -707,7 +707,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Custom multi-size organic garland in your chosen palette with chrome and double-stuffed accents — installed on-site.",
       keywords: ["balloon", "garland", "organic"],
       totalStock: 5,
-      images: ["/images/Organic Pastel & Chrome Balloon Garland — 10 ft.jpeg"],
+      images: ["/images/Organic-Pastel-Chrome-Balloon-Garland-10-ft.jpeg"],
     },
     {
       name: "Luxe Tabletop Balloon Bouquet",
@@ -717,7 +717,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Weighted luxury tabletop bouquet coordinating with event color themes, featuring foil spheres and delicate ribbon.",
       keywords: ["balloon", "bouquet", "table"],
       totalStock: 15,
-      images: ["/images/Luxe Tabletop Balloon Bouquet.jpeg"],
+      images: ["/images/Luxe-Tabletop-Balloon-Bouquet.jpeg"],
     },
   ],
   "wedding-stage-designs": [
@@ -731,7 +731,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       newProduct: true,
       totalStock: 1,
-      images: ["/images/Grand Gala Ballroom Reception Setup.jpeg"],
+      images: ["/images/Grand-Gala-Ballroom-Reception-Setup.jpeg"],
     },
     {
       name: "Grand Royalty Wedding Stage with Floral Pillars",
@@ -741,7 +741,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Full luxury stage design with structural arches, fluted columns, custom florals, and ambient stage lighting concept.",
       keywords: ["stage", "luxury", "wedding", "design"],
       totalStock: 1,
-      images: ["/images/Grand Royalty Wedding Stage with Floral Pillars.jpeg"],
+      images: ["/images/Grand-Royalty-Wedding-Stage-with-Floral-Pillars.jpeg"],
     },
     {
       name: "Grand White & Gold Wedding Reception",
@@ -762,7 +762,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Custom circular ceremony arbor design with structural gold frame and full 360-degree styled white and blush florals.",
       keywords: ["ceremony", "arbor", "custom", "circle"],
       totalStock: 2,
-      images: ["/images/Bespoke Circular Ceremony Floral Arbor.jpeg"],
+      images: ["/images/Bespoke-Circular-Ceremony-Floral-Arbor.jpeg"],
     },
     {
       name: "Elegant White & Sage Wedding Tablescape",
@@ -772,7 +772,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "",
       keywords: ["ceremony", "tablescape", "white", "sage"],
       totalStock: 2,
-      images: ["/images/Wedding Tablescape.jpg"],
+      images: ["/images/Wedding-Tablescape.jpg"],
     },
 
     {
@@ -783,7 +783,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Custom circular ceremony arbor design with structural gold frame and full 360-degree styled white and blush florals.",
       keywords: ["ceremony", "arbor", "custom", "circle"],
       totalStock: 2,
-      images: ["/images/pink pearl.jpg"],
+      images: ["/images/pink-pearl.jpg"],
     },
 
     {
@@ -794,7 +794,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Geometric gold framing, modern floating pedestals, and cascading floral runner design tailored to venue dimensions.",
       keywords: ["stage", "wedding", "gold", "modern"],
       totalStock: 1,
-      images: ["/images/Minimalist Elegance Stage Setup — Gold Framing.jpeg"],
+      images: ["/images/Minimalist-Elegance-Stage-Setup-Gold-Framing.jpeg"],
     },
   ],
 };
