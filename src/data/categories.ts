@@ -18,7 +18,7 @@ export const categories: Category[] = [
     slug: "tables",
     navGroup: "rentals",
     description: "Farm tables, banquet rounds, cocktail tables, and sweetheart dining.",
-    image: "/images/Round table.jpg",
+    image: "/images/Round-table.jpg",
     subcategories: [
       { name: "Farm Tables", slug: "farm-tables" },
       { name: "Round Tables", slug: "round-tables" },
@@ -30,7 +30,7 @@ export const categories: Category[] = [
     slug: "chairs",
     navGroup: "rentals",
     description: "Ghost, chiavari, throne, and luxury seating for every style.",
-    image: "/images/Ghost chair.jpg",
+    image: "/images/Ghost-chair.jpg",
     subcategories: [
       { name: "Ghost Clear Chair", slug: "ghost-clear-chair" },
       { name: "Black & Gold Luxury Chair", slug: "black-gold-luxury" },
@@ -43,7 +43,7 @@ export const categories: Category[] = [
     slug: "tablecloths-napkins",
     navGroup: "rentals",
     description: "Linens, runners, and napkins in refined palettes.",
-    image: "/images/Baby Blue Napkins.jpeg",
+    image: "/images/Baby-Blue-Napkins.jpeg",
     subcategories: [
       { name: "Tablecloths", slug: "tablecloths" },
       { name: "Napkins", slug: "napkins" },
@@ -55,7 +55,7 @@ export const categories: Category[] = [
     slug: "centerpieces-candelabras",
     navGroup: "decor",
     description: "Floral centerpieces, candelabras, and statement table décor.",
-    image: "/images/flower 5 no customize.jpeg",
+    image: "/images/flower-5-no-customize.jpeg",
     subcategories: [
       { name: "Floral Centerpieces", slug: "floral-centerpieces" },
       { name: "Floral Arrangements", slug: "floral-arrangements" },
@@ -66,7 +66,7 @@ export const categories: Category[] = [
     slug: "glassware-chargers",
     navGroup: "rentals",
     description: "Reef charger plates, beaded chargers, stemware, and flutes.",
-    image: "/images/White Charger plates.jpg",
+    image: "/images/White-Charger-plates.jpg",
     subcategories: [
       { name: "Charger Plates", slug: "charger-plates" },
       { name: "Specialty Glassware", slug: "specialty-glassware" },
@@ -77,7 +77,7 @@ export const categories: Category[] = [
     slug: "backdrops-focal-points",
     navGroup: "decor",
     description: "Arches, panels, walls, and immersive focal displays.",
-    image: "/images/Luxury White Wedding Welcome Display.jpg",
+    image: "/images/Luxury-White-Wedding-Welcome-Display.jpg",
     subcategories: [
       { name: "Arches", slug: "arches" },
       { name: "Backdrops", slug: "backdrops" },
@@ -89,7 +89,7 @@ export const categories: Category[] = [
     slug: "lounge-throne-seating",
     navGroup: "rentals",
     description: "Lounges, loveseats, and regal throne seating.",
-    image: "/images/King Throne Chair — Black Velvet & Gold.jpg",
+    image: "/images/King-Throne-Chair-Black-Velvet-Gold.jpg",
     subcategories: [
       { name: "Loveseats", slug: "loveseats" },
       { name: "Sofas", slug: "sofas" },
@@ -102,7 +102,7 @@ export const categories: Category[] = [
     slug: "kids",
     navGroup: "rentals",
     description: "Banquet tables, chiavari chairs, and party styling for little guests.",
-    image: "/images/Kids White Folding Craft Table.jpg",
+    image: "/images/Kids-White-Folding-Craft-Table.jpg",
     subcategories: [
       { name: "Kids Tables", slug: "kids-tables" },
       { name: "Kids Chairs", slug: "kids-chairs" },
@@ -114,7 +114,7 @@ export const categories: Category[] = [
     slug: "candles-decor",
     navGroup: "decor",
     description: "Candles, holders, vases, and finishing touches.",
-    image: "/images/Chandelier decor.jpg",
+    image: "/images/Chandelier-decor.jpg",
     subcategories: [
       { name: "Candle Holders", slug: "candle-holders" },
       { name: "Decorative Accessories", slug: "decorative-accessories" },
@@ -125,7 +125,7 @@ export const categories: Category[] = [
     slug: "cake-stands-treat-tables",
     navGroup: "rentals",
     description: "Cake stands, dessert tables, and sweet display pieces.",
-    image: "/images/Three-Tier Crystal Wedding Cake Stand.jpg",
+    image: "/images/Three-Tier-Crystal-Wedding-Cake-Stand.jpg",
     subcategories: [
       { name: "Cake Stands", slug: "cake-stands" },
       { name: "Dessert Tables", slug: "dessert-tables" },
@@ -137,7 +137,7 @@ export const categories: Category[] = [
     slug: "entertainment",
     navGroup: "rentals",
     description: "Photo booth experiences and bounce house rentals.",
-    image: "/images/photo booth.jpg",
+    image: "/images/photo-booth.jpg",
     subcategories: [
       { name: "Photo Booth", slug: "photo-booth" },
       { name: "Bounce House", slug: "bounce-house" },
@@ -148,7 +148,7 @@ export const categories: Category[] = [
     slug: "production",
     navGroup: "rentals",
     description: "Lighting, draping, flooring, and event production.",
-    image: "/images/Heavyweight Velvet Pipe & Drape — 10 ft Section.jpeg",
+    image: "/images/Heavyweight-Velvet-Pipe-Drape-10-ft-Section.jpeg",
     subcategories: [
       { name: "Event Production", slug: "event-production" },
       { name: "Lighting", slug: "lighting" },
@@ -160,7 +160,7 @@ export const categories: Category[] = [
     slug: "balloons",
     navGroup: "decor",
     description: "Garlands, installations, and custom balloon design.",
-    image: "/images/Organic Pastel & Chrome Balloon Garland — 10 ft.jpeg",
+    image: "/images/Organic-Pastel-Chrome-Balloon-Garland-10-ft.jpeg",
     subcategories: [
       { name: "Balloon Garlands", slug: "balloon-garlands" },
       { name: "Balloon Installations", slug: "balloon-installations" },
@@ -172,7 +172,7 @@ export const categories: Category[] = [
     slug: "wedding-stage-designs",
     navGroup: "decor",
     description: "Ceremony stages, luxury installations, and bespoke design.",
-    image: "/images/Minimalist Elegance Stage Setup — Gold Framing.jpeg",
+    image: "/images/Minimalist-Elegance-Stage-Setup-Gold-Framing.jpeg",
     subcategories: [
       { name: "Wedding Stages", slug: "wedding-stages" },
       { name: "Ceremony Designs", slug: "ceremony-designs" },
