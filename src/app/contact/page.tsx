@@ -50,11 +50,8 @@ export default function ContactPage() {
           </div>
           <div>
             <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal">
-              Studio &amp; Warehouse Location
+              Appointments
             </h2>
-            <p className="mt-2 text-base font-medium text-charcoal">
-              502 Periwinkle Dr, Mansfield, TX 76063
-            </p>
             <p className="mt-1 text-xs text-warm-gray">
               Client consultations and warehouse pickups available by appointment.
             </p>

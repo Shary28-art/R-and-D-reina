@@ -6,15 +6,15 @@ import { Phone, Mail, Clock } from "lucide-react";
 export function Footer() {
   return (
     <footer className="mt-auto border-t border-gold/20 bg-[#121110] text-ivory">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 md:grid-cols-4 md:px-6">
+      <div className="mx-auto grid max-w-7xl gap-4 px-4 py-5 md:grid-cols-4 md:px-6 md:py-6">
         <div>
           <Logo size="md" showText={true} light={true} />
-          <p className="mt-4 max-w-xs text-xs leading-relaxed text-champagne/70">
+          <p className="mt-2 max-w-xs text-xs leading-relaxed text-champagne/70">
             Luxury event rentals, floral design, and bespoke event styling for weddings, gala receptions, and memorable celebrations.
           </p>
-          <div className="mt-6 space-y-2 text-xs text-champagne/80">
+          <div className="mt-3 space-y-1 text-xs text-champagne/80">
             <span className="text-[10px] uppercase tracking-widest text-gold font-semibold block">Social Media</span>
-            <ul className="space-y-1.5">
+            <ul className="space-y-1">
               <li>
                 <a
                   href="https://www.instagram.com/decorbyreina"
@@ -56,7 +56,7 @@ export function Footer() {
           <h3 className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
             Navigation
           </h3>
-          <ul className="mt-4 space-y-2.5 text-xs text-champagne/80">
+          <ul className="mt-2 space-y-1 text-xs text-champagne/80">
             <li>
               <Link href="/" className="hover:text-gold transition">
                 Home
@@ -99,7 +99,7 @@ export function Footer() {
           <h3 className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
             Rental Categories
           </h3>
-          <ul className="mt-4 max-h-56 space-y-2 overflow-y-auto pr-2 text-xs text-champagne/80">
+          <ul className="mt-2 max-h-40 space-y-1 overflow-y-auto pr-2 text-xs text-champagne/80">
             {categories.slice(0, 10).map((c) => (
               <li key={c.slug}>
                 <Link href={`/rentals/${c.slug}`} className="hover:text-gold transition">
@@ -112,9 +112,9 @@ export function Footer() {
 
         <div>
           <h3 className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
-            CONTACT AND
+            Contact
           </h3>
-          <ul className="mt-4 space-y-3 text-xs text-champagne/80">
+          <ul className="mt-2 space-y-1.5 text-xs text-champagne/80">
             <li className="flex items-center gap-2">
               <Phone className="h-3.5 w-3.5 text-gold shrink-0" />
               <a href="tel:972-920-6561" className="hover:text-gold transition">
@@ -135,7 +135,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-between gap-3 border-t border-white/10 py-6 px-4 text-center text-[11px] text-champagne/60 md:flex-row md:px-6">
+      <div className="flex flex-col items-center justify-between gap-1 border-t border-white/10 py-2.5 px-4 text-center text-[11px] text-champagne/60 md:flex-row md:px-6">
         <p>© {new Date().getFullYear()} R&amp;D by Reina. All rights reserved.</p>
         <Link href="/admin" className="text-champagne/70 hover:text-gold transition">
           Admin Operations Portal
