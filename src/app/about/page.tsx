@@ -12,7 +12,7 @@ export default function AboutPage() {
       <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
         <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-gold/20 shadow-lg">
           <Image
-            src="/images/real-event-setup.jpg"
+            src="/images/real-event.jpg"
             alt="R&D by Reina luxury event setup with organic balloon arch and backdrop"
             fill
             className="object-cover"

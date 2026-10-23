@@ -36,6 +36,8 @@ export const categories: Category[] = [
       { name: "Black & Gold Luxury Chair", slug: "black-gold-luxury" },
       { name: "Luxury Gold Chair", slug: "luxury-gold-chair" },
       { name: "Garden Chairs", slug: "garden-chairs" },
+      { name: "Modular Cream Sofa", slug: "modular-cream-sofa" },
+
     ],
   },
   {
@@ -47,7 +49,6 @@ export const categories: Category[] = [
     subcategories: [
       { name: "Tablecloths", slug: "tablecloths" },
       { name: "Napkins", slug: "napkins" },
-      { name: "Runners", slug: "runners" },
     ],
   },
   {
@@ -69,7 +70,7 @@ export const categories: Category[] = [
     image: "/images/White-Charger-plates.jpg",
     subcategories: [
       { name: "Charger Plates", slug: "charger-plates" },
-      { name: "Specialty Glassware", slug: "specialty-glassware" },
+      { name: "Glassware", slug: "glassware" },
     ],
   },
   {
@@ -79,22 +80,7 @@ export const categories: Category[] = [
     description: "Arches, panels, walls, and immersive focal displays.",
     image: "/images/Luxury-White-Wedding-Welcome-Display.jpg",
     subcategories: [
-      { name: "Arches", slug: "arches" },
       { name: "Backdrops", slug: "backdrops" },
-      { name: "Walls", slug: "walls" },
-    ],
-  },
-  {
-    name: "Lounge & Throne Seating",
-    slug: "lounge-throne-seating",
-    navGroup: "rentals",
-    description: "Lounges, loveseats, and regal throne seating.",
-    image: "/images/King-Throne-Chair-Black-Velvet-Gold.jpg",
-    subcategories: [
-      { name: "Loveseats", slug: "loveseats" },
-      { name: "Sofas", slug: "sofas" },
-      { name: "Lounge Chairs", slug: "lounge-chairs" },
-      { name: "Throne Chairs", slug: "throne-chairs-lounge" },
     ],
   },
   {
@@ -106,20 +92,10 @@ export const categories: Category[] = [
     subcategories: [
       { name: "Kids Tables", slug: "kids-tables" },
       { name: "Kids Chairs", slug: "kids-chairs" },
-      { name: "Kids Décor", slug: "kids-decor" },
+      { name: "Bounce Houses", slug: "bounce-houses" },
     ],
   },
-  {
-    name: "Candles & Décor",
-    slug: "candles-decor",
-    navGroup: "decor",
-    description: "Candles, holders, vases, and finishing touches.",
-    image: "/images/Chandelier-decor.jpg",
-    subcategories: [
-      { name: "Candle Holders", slug: "candle-holders" },
-      { name: "Decorative Accessories", slug: "decorative-accessories" },
-    ],
-  },
+ 
   {
     name: "Cake Stands & Treat Tables",
     slug: "cake-stands-treat-tables",
@@ -128,23 +104,19 @@ export const categories: Category[] = [
     image: "/images/Three-Tier-Crystal-Wedding-Cake-Stand.jpg",
     subcategories: [
       { name: "Cake Stands", slug: "cake-stands" },
-      { name: "Dessert Tables", slug: "dessert-tables" },
       { name: "Treat Displays", slug: "treat-displays" },
     ],
   },
   {
-    name: "Photo Booth & Bounce House",
+    name: "Photo Booth",
     slug: "entertainment",
     navGroup: "rentals",
     description: "Photo booth experiences and bounce house rentals.",
     image: "/images/photo-booth.jpg",
     subcategories: [
       { name: "Photo Booth", slug: "photo-booth" },
-      { name: "Bounce House", slug: "bounce-house" },
     ],
   },
-  
-  
   {
     name: "Wedding & Stage Designs",
     slug: "wedding-stage-designs",
@@ -152,8 +124,6 @@ export const categories: Category[] = [
     description: "Ceremony stages, luxury installations, and bespoke design.",
     image: "/images/Minimalist-Elegance-Stage-Setup-Gold-Framing.jpeg",
     subcategories: [
-      { name: "Wedding Stages", slug: "wedding-stages" },
-      { name: "Ceremony Designs", slug: "ceremony-designs" },
       { name: "Luxury Stage Décor", slug: "luxury-stage-decor" },
     ],
   },

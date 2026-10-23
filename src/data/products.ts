@@ -40,7 +40,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       images: ["/images/Rectangular-table-6ft.jpg"],
     },
     {
-      name: "Rectangular table 10ft",
+      name: "Rectangular table 8ft",
       subcategorySlug: "farm-tables",
       price: 75,
       description:
@@ -62,19 +62,17 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 140,
-      images: ["/images/garden.jpg"],
+      images: ["/images/Garden-chair.jpg"],
     },
     {
-      name: "Velvet Barrel Accent Chair : off white",
-      subcategorySlug: "garden-chairs",
-      price: 50,
+      name: "Modular Cream Sofa",
+      subcategorySlug: "modular-cream-sofa",
+      price: 185,
       description:
-        "Velvet barrel accent chair in off-white color, perfect for adding a touch of elegance to any room.",
-      keywords: ["velvet chair", "barrel chair", "accent chair", "off white"],
-      featured: true,
-      bestSeller: true,
-      totalStock: 140,
-      images: ["/images/Velvet-Barrel.jpg"],
+        "Curved modular cream sofa sections configurable for VIP lounges, cocktail areas, and modern chic receptions.",
+      keywords: ["sofa", "lounge", "cream", "boucle"],
+      totalStock: 3,
+      images: ["/images/cream.jpg"],
     },
     {
       name: "Black & Gold Luxury Chair",
@@ -112,14 +110,65 @@ const catalogSeeds: Record<string, SeedItem[]> = {
   ],
   "tablecloths-napkins": [
     {
-      name: "Pack Baby Blue Cheesecloth Table Runner 10Ft",
-      subcategorySlug: "runners",
-      price: 14,
+      name: "5 Pack Premium Polyester Napkins 17x17 White - Wrinkle Resistant Easy Care Cloth Napkins for Wedding & Events",
+      subcategorySlug: "napkins",
+      price: 2,
       description:
-        "10-foot gauzy baby blue cheesecloth table runner with soft crinkled texture, creating an airy rustic-elegant drape over dining tables.",
-      keywords: ["cheesecloth", "runner", "baby blue", "table runner"],
-      totalStock: 6,
-      images: ["/images/Baby-Blue-Cheesecloth-Table-Runner-10Ft.jpg"],
+        "5-pack of premium polyester napkins, 17x17 inches, white color. Wrinkle-resistant and easy care, perfect for wedding and event occasions.",
+      keywords: ["napkins", "polyester", "wedding", "events", "white"],
+      totalStock: 20,
+      images: ["/images/3.png"],
+    },
+     {
+      name: "5 Pack Premium Polyester Napkins 17x17 Burgundy - Wrinkle Resistant & Easy Care Cloth Napkins for Wedding & Events",
+      subcategorySlug: "napkins",
+      price: 2,
+      description:
+        "5-pack of premium polyester napkins, 17x17 inches, burgundy color. Wrinkle-resistant and easy care, perfect for wedding and event occasions.",
+      keywords: ["napkins", "polyester", "wedding", "events", "burgundy"],
+      totalStock: 20,
+      images: ["/images/4.png"],
+    },
+     {
+      name: "5 Pack Premium Polyester Napkins 17x17 Dusty Sage Green - Wrinkle Resistant & Easy Care Cloth Napkins for Wedding & Events",
+      subcategorySlug: "napkins",
+      price: 2,
+      description:
+        "5-pack of premium polyester napkins, 17x17 inches, dusty sage green color. Wrinkle-resistant and easy care, perfect for wedding and event occasions.",
+      keywords: ["napkins", "polyester", "wedding", "events", "dusty sage green"],
+      totalStock: 20,
+      images: ["/images/5.png"],
+    },
+     {
+      name: "5 Pack Premium Polyester Napkins 17x17 Black - Wrinkle Resistant Easy Care Cloth Napkins for Wedding & Events",
+      subcategorySlug: "napkins",
+      price: 2,
+      description:
+        "5-pack of premium polyester napkins, 17x17 inches, black color. Wrinkle-resistant and easy care, perfect for wedding and event occasions.",
+      keywords: ["napkins", "polyester", "wedding", "events", "black"],
+      totalStock: 20,
+      images: ["/images/6.png"],
+    },
+
+    {
+      name: "Polyester Round Tablecloth 120 Navy Blue - Durable & Seamless Table Cover",
+      subcategorySlug: "tablecloths",
+      price: 18,
+      description:
+        "Durable, seamless polyester round tablecloth in classic navy blue. The 120-inch cover creates an elegant floor-length look for wedding receptions, banquets, and special events.",
+      keywords: ["navy blue tablecloth", "120 inch round tablecloth", "polyester tablecloth", "round table cover", "banquet linen"],
+      totalStock: 12,
+      images: ["/images/2.png"],
+    },
+    {
+      name: "Polyester Round Tablecloth 120 Hunter Emerald Green - Durable & Seamless Table Cover",
+      subcategorySlug: "tablecloths",
+      price: 18,
+      description:
+        "Durable, seamless polyester round tablecloth in rich hunter emerald green. The 120-inch cover adds an elegant floor-length finish to wedding receptions, banquets, and special events.",
+      keywords: ["hunter emerald green tablecloth", "emerald green tablecloth", "120 inch round tablecloth", "polyester tablecloth", "round table cover", "banquet linen"],
+      totalStock: 12,
+      images: ["/images/1.png"],
     },
     {
       name: "White rectangular tablecloths 8 foot",
@@ -129,20 +178,9 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Crisp floor-length white rectangular tablecloth tailored for standard 8-foot banquet tables. Smooth, wrinkle-resistant premium polyester.",
       keywords: ["tablecloth", "white", "rectangular", "8 foot", "banquet"],
       totalStock: 12,
-      images: ["/images/White-rectangular-tablecloths-8-foot.jpg"],
+      images: ["/images/White-rectangular-tablecloths-8-foo.jpg"],
     },
-    {
-      name: "White tablecloths Round",
-      subcategorySlug: "tablecloths",
-      price: 20,
-      description:
-        "Classic floor-length white round tablecloth for 60-inch to 72-inch banquet rounds. Provides a timeless, elegant foundation for any reception palette.",
-      keywords: ["tablecloth", "white", "round", "banquet"],
-      featured: true,
-      bestSeller: true,
-      totalStock: 20,
-      images: ["/images/White-tablecloths-Round.jpg"],
-    },
+
     {
       name: "Round tablecloths black",
       subcategorySlug: "tablecloths",
@@ -151,82 +189,23 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Floor-length jet black round tablecloth for 60-inch to 72-inch rounds. Rich, deep tone delivering modern drama and high contrast.",
       keywords: ["round tablecloths black", "black tablecloth", "black linens"],
       totalStock: 10,
-      images: ["/images/Round-tablecloths-black.jpg"],
+      images: ["/images/Round-tablecloths-blac.jpg"],
     },
-    {
-      name: "Rectangular tablecloths",
-      subcategorySlug: "tablecloths",
-      price: 18,
-      description:
-        "Durable rectangular banquet tablecloth providing crisp, professional coverage for standard buffet and dining setups.",
-      keywords: ["rectangular tablecloths", "table linen", "banquet cover"],
-      totalStock: 10,
-      images: ["/images/Rectangular-table-cloths.jpg"],
-    },
-    {
-      name: "Baby Blue Napkins",
-      subcategorySlug: "napkins",
-      price: 1.75,
-      description:
-        "Luxe baby blue cloth napkins with clean hemmed edges. Soft texture that folds crisply into pocket or fan designs.",
-      keywords: ["baby blue napkins", "napkins", "blue linen", "table setting"],
-      totalStock: 50,
-      images: ["/images/Baby-Blue-Napkins.jpeg"],
-    },
-    {
-      name: "Black Napkins",
-      subcategorySlug: "napkins",
-      price: 1.75,
-      description:
-        "Midnight black pressed cloth dinner napkins. Premium fabric designed to contrast dramatically with gold and white charger plates.",
-      keywords: ["black napkins", "cloth napkins", "linens", "dinner napkins"],
-      bestSeller: true,
-      totalStock: 150,
-      images: ["/images/Black-Napkins.jpeg"],
-    },
-    {
-      name: "Pearl napkin decor",
-      subcategorySlug: "napkins",
-      price: 1.5,
-      description:
-        "Delicate pearl-beaded napkin rings adding an iridescent jewelry accent to styled place settings.",
-      keywords: ["pearl napkin decor", "napkin rings", "pearls", "place setting"],
-      totalStock: 50,
-      images: ["/images/Pearl-napkin-decor.jpg"],
-    },
-    {
-      name: "Gold Napkin decor",
-      subcategorySlug: "napkins",
-      price: 1.5,
-      description:
-        "Polished metallic gold napkin rings with sleek modern finish to secure napkin rolls and folds.",
-      keywords: ["gold napkin decor", "napkin rings", "gold rings", "place setting"],
-      totalStock: 50,
-      images: ["/images/Gold-Napkin-decor.jpg"],
-    },
+
+
   ],
   "centerpieces-candelabras": [
     {
-      name: "2pcs A8236 200*75*50cm flower + 2pcs 180cm stand no customize",
-      subcategorySlug: "floral-arrangements",
-      price: 350,
-      description:
-        "Grand two-piece luxury floral installation (200×75×50 cm) accompanied by two 180 cm matching gold structural display stands. Dramatic ceremony altar or stage entrance framing.",
-      keywords: ["flower", "stand", "floral arrangement", "ceremony", "altar"],
-      featured: true,
-      newProduct: true,
-      totalStock: 1,
-      images: ["/images/2pcs-A8236.jpg"],
-    },
-    {
-      name: "60cm wreath",
+      name: "Burgundy-rose-gold-table-centerpiece",
       subcategorySlug: "floral-centerpieces",
-      price: 45,
+      price: 85,
       description:
-        "Circular 60 cm lush floral wreath of white garden roses and botanical foliage. Versatile as a tabletop centerpiece encircling hurricane candles or suspended overhead.",
-      keywords: ["wreath", "floral", "centerpiece", "circle", "flowers"],
-      totalStock: 10,
-      images: ["/images/60cm-wreath.jpg"],
+        "Elegant burgundy and rose gold floral centerpiece with premium blooms and decorative elements. Perfect for creating a romantic atmosphere at your special day.",
+      keywords: ["wedding floral arrangements", "centerpiece", "decor"],
+      featured: true,
+      bestSeller: true,
+      totalStock: 5,
+      images: ["/images/80.png"],
     },
     {
       name: "2pcs A9020 50*60cm table flower/set no customize",
@@ -268,57 +247,6 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       totalStock: 5,
       images: ["/images/white.jpg"],
     },
-
-    {
-      name: "60cm flower ball no stand",
-      subcategorySlug: "floral-centerpieces",
-      price: 55,
-      description:
-        "Full 60 cm spherical flower pomander ball crafted with dense white roses and accent greenery. Ready to rest atop floral risers, urns, or table mirrors.",
-      keywords: ["flower ball", "floral sphere", "kissing ball", "centerpiece"],
-      totalStock: 10,
-      images: ["/images/60cm-flower-ball-no-stand.jpg"],
-    },
-    {
-      name: "200*45cm flower 5 no customize",
-      subcategorySlug: "floral-arrangements",
-      price: 120,
-      description:
-        "Extravagant 200×45 cm floral runner featuring abundant white roses and greenery, designed for long head table cascades and mantle displays.",
-      keywords: ["flower runner", "floral runner", "head table", "roses"],
-      totalStock: 1,
-      images: ["/images/flower-5-no-customize.jpeg"],
-    },
-    {
-      name: "120*45cm flower no customize",
-      subcategorySlug: "floral-arrangements",
-      price: 80,
-      description:
-        "Curated 120×45 cm floral display piece with soft ivory blooms and trailing greens for sweetheart tables or bar backsplashes.",
-      keywords: ["floral arrangement", "flowers", "sweetheart", "decor"],
-      totalStock: 1,
-      images: ["/images/flower-no-customize.jpeg"],
-    },
-    {
-      name: "100*45cm flower no customize",
-      subcategorySlug: "floral-arrangements",
-      price: 70,
-      description:
-        "Refined 100×45 cm floral arrangement suitable for welcome easels, guest book tables, or ceremony aisle accents.",
-      keywords: ["floral arrangement", "accent flower", "centerpiece"],
-      totalStock: 1,
-      images: ["/images/10045cm-flower-no-customize.jpg"],
-    },
-    {
-      name: "45*60cm flower 8 no customize",
-      subcategorySlug: "floral-centerpieces",
-      price: 50,
-      description:
-        "Lush 45×60 cm floral arrangement offering upright elegance and fresh botanical fragrance for guest dining tables.",
-      keywords: ["flower arrangement", "floral", "table centerpiece"],
-      totalStock: 1,
-      images: ["/images/4560cm-flower-8-no-customize.jpeg"],
-    },
     {
       name: "Flower Centerpieces for Tables: 17.7 inch",
       subcategorySlug: "floral-centerpieces",
@@ -340,8 +268,50 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Sophisticated matte black charger plates accented with a polished metallic gold rim. Creates a dramatic contrast on reception tables.",
       keywords: ["charger plates", "black and gold", "plate", "table setting"],
       totalStock: 60,
-      images: ["/images/Black-Gold-charger-plates.jpg"],
+      images: ["/images/7.png"],
     },
+    {
+      name: "20-Pack Economy Plastic Charger Plates 13 Round Clear with Gold Embossed Baroque Rim - Stylish Dinner Party Serving Plates",
+      subcategorySlug: "charger-plates",
+      price: 32.0,
+      description:
+        "20-Pack Economy Plastic Charger Plates 13 Round Clear with Gold Embossed Baroque Rim - Stylish Dinner Party Serving Plates",
+      keywords: ["charger plates", "plastic", "clear", "gold rim", "dinner party"],
+      totalStock: 60,
+      images: ["/images/57.png"],
+    },
+    {
+      name: "Reef Acrylic Charger Plate - Clear Gold Trim",
+      subcategorySlug: "charger-plates",
+      price: 5.0,
+      description:
+        "Elegant acrylic charger plate with a clear body and gold trim. Perfect for adding a touch of sophistication to your table setting.",
+      keywords: ["charger plates", "acrylic", "clear", "gold trim", "table setting"],
+      totalStock: 60,
+      images: ["/images/60.png"],
+    },
+    {
+      name: "Acrylic Beaded Charger Plate – Gold Trim with Plum Table Setting",
+      subcategorySlug: "charger-plates",
+      price: 5.0,
+      description:
+        "Decorative acrylic charger plate with a beaded edge and elegant gold trim, shown with a plum table setting. Adds a refined accent to wedding receptions, banquets, and formal dinners.",
+      keywords: ["acrylic charger plate", "beaded charger plate", "gold trim charger", "plum table setting", "wedding table decor", "formal dinner tableware"],
+      totalStock: 60,
+      images: ["/images/59.png"],
+    },
+
+    {
+      name: "Imported White Wine Glass Set",
+      subcategorySlug: "glassware",
+      price: 3.0,
+      description:
+        "Elegant imported white wine glasses for serving wine at weddings, receptions, dinners, and other special events. Available for event table settings and guest service.",
+      keywords: ["white wine glass", "wine glass set", "imported glassware", "event glassware", "wedding table setting", "wine serving glass"],
+      totalStock: 60,
+      images: ["/images/50.png"],
+    },
+
     {
       name: "Pure Gold charger plates",
       subcategorySlug: "charger-plates",
@@ -352,39 +322,9 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 200,
-      images: ["/images/Pure-Gold-charger-plates.jpg"],
+      images: ["/images/8.jpg"],
     },
-    {
-      name: "White Charger plates",
-      subcategorySlug: "charger-plates",
-      price: 2.5,
-      description:
-        "Clean porcelain-style white charger plates with detailed rim. Offers a crisp, fresh look for traditional and modern weddings.",
-      keywords: ["white charger plates", "chargers", "dining", "tableware"],
-      totalStock: 100,
-      images: ["/images/White-Charger-plates.jpg"],
-    },
-    {
-      name: "Acrylic Charger plates",
-      subcategorySlug: "charger-plates",
-      price: 3.25,
-      description:
-        "Clear acrylic charger plates with beaded border. Modern, transparent elegance that complements any tablecloth pattern.",
-      keywords: ["acrylic charger", "clear charger", "plates", "modern"],
-      totalStock: 50,
-      images: ["/images/Acrylic-Charger-plates.jpg"],
-    },
-    {
-      name: "Clear pop shell Glasses",
-      subcategorySlug: "specialty-glassware",
-      price: 2.5,
-      description:
-        "Textured clear pop shell goblets with embossed ridges. Stunning tactile vintage-modern glassware for water, wine, or cocktails.",
-      keywords: ["clear glasses", "pop shell", "goblet", "specialty glassware"],
-      bestSeller: true,
-      totalStock: 100,
-      images: ["/images/Clear-pop-shell-Glasses.jpeg"],
-    },
+    
   ],
   "backdrops-focal-points": [
         {
@@ -395,31 +335,21 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Custom circular ceremony arbor design with structural gold frame and full 360-degree styled white and blush florals.",
       keywords: ["ceremony", "arbor", "custom", "circle"],
       totalStock: 2,
-      images: ["/images/Luxury-White-Wedding-Welcome-Display.jpg"],
+      images: ["/images/12.jpg"],
+
     },
     {
-      name: "Shimmer wall –24pcs",
-      subcategorySlug: "walls",
-      price: 280,
-      description:
-        "Dazzling 24-piece modular shimmer sequin backdrop wall. Creates a dynamic, reflecting glitter effect for photo booths, red carpets, and VIP stages.",
-      keywords: ["shimmer wall", "sequin wall", "backdrop", "glitter", "photo"],
-      featured: true,
-      newProduct: true,
-      totalStock: 1,
-      images: ["/images/Shimmer-wall-24pcs.jpeg"],
-    },
-    {
-      name: "Backdrop Stand, 6.5x10 ft",
+      name: "Pink-gold-birthday-balloon-backdrop",
       subcategorySlug: "backdrops",
-      price: 65,
+      price: 950,
       description:
-        "Heavy-duty 6.5×10 foot adjustable metal backdrop support stand for drapery, balloon garlands, and floral installations.",
-      keywords: ["backdrop stand", "pipe and drape", "frame", "photo stand"],
-      totalStock: 1,
-      images: ["/images/Backdrop-Stand,-6.5x10-ft.jpeg"],
+        "Pink and gold birthday balloon backdrop with white and blush florals.",
+      keywords: ["birthday", "balloon", "backdrop", "pink", "gold"],
+      totalStock: 2,
+      images: ["/images/55.jpg"],
+      
     },
-        {
+    {
       name: "Elegant Love Story Welcome Setup",
       subcategorySlug: "backdrops",
       price: 65,
@@ -427,9 +357,148 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Complete welcome setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
       keywords: ["welcome setup", "wedding backdrop", "event decoration", "photo backdrop"],
       totalStock: 1,
-      images: ["/images/love-story.jpg"],
+      images: ["/images/9.jpg"],
     },
- 
+    {
+      name: "Elegant Ballon Arch Backdrop",
+      subcategorySlug: "backdrops",
+      price: 90,
+      description:
+        "Complete balloon arch backdrop setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
+      keywords: ["balloon arch", "wedding backdrop", "event decoration", "photo backdrop"],
+      totalStock: 1,
+      images: ["/images/20.jpg"],
+    },
+    {
+      name: "Pastel ballon butterfly Backdrop",
+      subcategorySlug: "backdrops",
+      price: 91,
+      description:
+        "Complete pastel balloon butterfly backdrop setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
+      keywords: ["balloon butterfly", "wedding backdrop", "event decoration", "photo backdrop"],
+      totalStock: 1,
+      images: ["/images/21.jpg"],
+    },
+     {
+      name: "Golden and black ballon backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Complete golden and black balloon backdrop setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
+      keywords: ["balloon backdrop", "wedding backdrop", "event decoration", "photo backdrop"],
+      totalStock: 1,
+      images: ["/images/22.jpg"],
+    },
+     {
+      name: " Red Rose Proposal Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Complete red rose proposal backdrop setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
+      keywords: ["red rose backdrop", "wedding backdrop", "event decoration", "photo backdrop"],
+      totalStock: 1,
+      images: ["/images/23.jpg"],
+    },
+    {
+      name: "White floral arch backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Complete white floral arch backdrop setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
+      keywords: ["white floral arch", "wedding backdrop", "event decoration", "photo backdrop"],
+      totalStock: 1,
+      images: ["/images/24.jpg"],
+    },
+    {
+      name: "White floral bridal backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Complete white floral bridal backdrop setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
+      keywords: ["white floral bridal", "wedding backdrop", "event decoration", "photo backdrop"],
+      totalStock: 1,
+      images: ["/images/25.jpg"],
+    },
+     {
+      name: "White  floral wedding arch ",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Complete white floral bridal backdrop setup with custom signage, floral arrangements, and decorative elements as pictured. Ideal for weddings, anniversaries, and special events.",
+      keywords: ["white floral bridal", "wedding backdrop", "event decoration", "photo backdrop"],
+      totalStock: 1,
+      images: ["/images/26.jpg"],
+    },
+    {
+      name: "Pastel Rainbow Balloon Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Pastel rainbow balloon backdrop adding a soft, colorful focal point to birthdays, baby showers, and other celebrations. Ideal for photo areas and event displays.",
+      keywords: ["pastel rainbow backdrop", "rainbow balloon backdrop", "pastel balloon decor", "birthday backdrop", "baby shower backdrop", "event photo backdrop"],
+      totalStock: 1,
+      images: ["/images/27.jpg"],
+    },
+    {
+      name: "Pink and Green Graduation Balloon Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Pink and green graduation balloon backdrop adding a vibrant focal point to graduation parties, baby showers, and other celebrations. Ideal for photo areas and event displays.",
+      keywords: ["pink and green graduation backdrop", "graduation balloon backdrop", "pink and green balloon decor", "graduation party backdrop", "baby shower backdrop", "event photo backdrop"],
+      images: ["/images/28.jpg"],
+    },
+    {
+      name: "Elegant 40th Birthday Photo Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Elegant 40th birthday photo backdrop adding a sophisticated focal point to milestone celebrations. Ideal for photo areas and event displays.",
+      keywords: ["elegant 40th birthday backdrop", "birthday photo backdrop", "milestone celebration backdrop", "event photo backdrop"],
+      totalStock: 1,
+      images: ["/images/29.jpg"],
+    },
+    {
+      name: "Luxury Wedding Stage Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Elegant luxury wedding stage backdrop adding a sophisticated focal point to weddings and special events. Ideal for photo areas and event displays.",
+      keywords: ["elegant wedding backdrop", "luxury wedding backdrop", "wedding stage backdrop", "event photo backdrop"],
+      totalStock: 1,
+      images: ["/images/30.jpg"],
+    },
+    {
+      name: "Luxury Blue Baby Shower Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Elegant luxury blue baby shower backdrop adding a sophisticated focal point to baby showers and special events. Ideal for photo areas and event displays.",
+      keywords: ["elegant baby shower backdrop", "luxury baby shower backdrop", "blue baby shower backdrop", "event photo backdrop"],
+      totalStock: 1,
+      images: ["/images/31.jpg"],
+    },
+    {
+      name: "Purple and Gold Graduation Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Elegant purple and gold graduation backdrop adding a vibrant focal point to graduation parties and special events. Ideal for photo areas and event displays.",
+      keywords: ["purple and gold graduation backdrop", "graduation photo backdrop", "vibrant graduation backdrop", "event photo backdrop"],
+      totalStock: 1,
+      images: ["/images/32.jpg"],
+    },
+    {
+      name: "Luxury Fuchsia Floral Backdrop",
+      subcategorySlug: "backdrops",
+      price: 95,
+      description:
+        "Elegant luxury fuchsia floral backdrop adding a sophisticated focal point to special events and photo shoots. Ideal for photo areas and event displays.",
+      keywords: ["elegant floral backdrop", "luxury floral backdrop", "fuchsia floral backdrop", "event photo backdrop"],
+      totalStock: 1,
+      images: ["/images/33.jpg"],
+    },
+    
     {
       name: "Backdrop set up as seen",
       subcategorySlug: "backdrops",
@@ -438,73 +507,9 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Complete backdrop setup with drapery, floral arrangements, and decorative elements as pictured. Ideal for weddings, photo shoots, and events.",
       keywords: ["backdrop setup", "event backdrop", "decorative backdrop", "photo backdrop"],
       totalStock: 1,
-      images: ["/images/backdrop-blue.jpg"],
+      images: ["/images/10.jpg"],
     },
 
-    {
-      name: "Wood arch",
-      subcategorySlug: "arches",
-      price: 180,
-      description:
-        "Rustic-modern stained wooden ceremony arch with solid freestanding base, ready for custom draping and floral cascading.",
-      keywords: ["wood arch", "ceremony arch", "wooden arbor", "wedding arch"],
-      featured: true,
-      bestSeller: true,
-      totalStock: 3,
-      images: ["/images/Wood-arch.jpg"],
-    },
-  ],
-  "lounge-throne-seating": [
-    {
-      name: "Emerald Velvet Curved Loveseat",
-      subcategorySlug: "loveseats",
-      price: 135,
-      description:
-        "Curved emerald velvet loveseat with brass legs for upscale cocktail lounge vignettes and sweetheart seating alternatives.",
-      keywords: ["loveseat", "velvet", "emerald", "lounge"],
-      totalStock: 4,
-      images: ["/images/Emerald.jpeg"],
-    },
-    {
-      name: "Modular Cream Bouclé Lounge Sofa",
-      subcategorySlug: "sofas",
-      price: 185,
-      description:
-        "Curved modular cream sofa sections configurable for VIP lounges, cocktail areas, and modern chic receptions.",
-      keywords: ["sofa", "lounge", "cream", "boucle"],
-      totalStock: 3,
-      images: ["/images/modular-lounge.jpg"],
-    },
-    {
-      name: "Modular Cream Sofa",
-      subcategorySlug: "sofas",
-      price: 185,
-      description:
-        "Curved modular cream sofa sections configurable for VIP lounges, cocktail areas, and modern chic receptions.",
-      keywords: ["sofa", "lounge", "cream", "boucle"],
-      totalStock: 3,
-      images: ["/images/cream.jpg"],
-    },
-    {
-      name: "Modern Sculptural Armchair — Gold & Ivory",
-      subcategorySlug: "lounge-chairs",
-      price: 70,
-      description:
-        "Sculptural designer lounge chair with brushed gold frame and textured ivory upholstery.",
-      keywords: ["lounge", "chair", "gold", "armchair"],
-      totalStock: 8,
-      images: ["/images/Modern-Sculptural-Armchair-Gold-Ivory.jpeg"],
-    },
-    {
-      name: "King Throne Chair — Black Velvet & Gold",
-      subcategorySlug: "throne-chairs-lounge",
-      price: 95,
-      description:
-        "Regal black velvet and hand-carved gold trim throne chair for milestone birthdays, quinces, and statement photo moments.",
-      keywords: ["throne", "black", "gold", "chair", "king"],
-      totalStock: 2,
-      images: ["/images/King-Throne-Chair-Black-Velvet-Gold.jpg"],
-    },
   ],
   kids: [
     {
@@ -520,15 +525,18 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       images: ["/images/Kids-Luxury-Chiavari-Banquet-Party-Package.jpeg"],
     },
     {
-      name: "Kids White Folding Craft Table",
-      subcategorySlug: "kids-tables",
-      price: 14,
+      name: "Bounce House - All Pink Luxury Castle",
+      subcategorySlug: "bounce-houses",
+      price: 200,
       description:
-        "Child-height folding table in clean white for dining, crafts, and children dessert tables.",
-      keywords: ["kids", "table", "children", "craft"],
-      totalStock: 20,
-      images: ["/images/Kids-White-Folding-Craft-Table.jpg"],
+        "Complete child-height banquet dining table setup featuring mini white chiavari chairs, custom blush napkins, favor displays, and marquee party styling.",
+      keywords: ["kids", "chiavari", "banquet", "party package"],
+      featured: true,
+      bestSeller: true,
+      totalStock: 10,
+      images: ["/images/40.jpeg"],
     },
+
     {
       name: "Kids Chiavari Chair — Gloss White",
       subcategorySlug: "kids-chairs",
@@ -539,44 +547,11 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       totalStock: 40,
       images: ["/images/Kids-Chiavari-Chair-Gloss-White.jpeg"],
     },
-    {
-      name: "Kids Pastel Balloon Centerpiece Cluster",
-      subcategorySlug: "kids-decor",
-      price: 25,
-      description:
-        "Playful pastel balloon cluster arrangement designed for kids tables, activity stations, and dessert bars.",
-      keywords: ["kids", "balloon", "decor", "centerpiece"],
-      totalStock: 10,
-      images: ["/images/Kids-Pastel-Balloon-Centerpiece-Cluster.jpg"],
-    },
   ],
-  "candles-decor": [
-    {
-      name: "Gold Hurricane Candle Holders Metal",
-      subcategorySlug: "candle-holders",
-      price: 18,
-      description:
-        "Lustrous metallic gold hurricane candle holders with protective glass cylinders. Provides warm, romantic illumination across reception banquet tables.",
-      keywords: ["candle holder", "hurricane", "gold metal", "lantern", "candles"],
-      featured: true,
-      bestSeller: true,
-      totalStock: 18,
-      images: ["/images/candle-decor.jpg"],
-    },
-    {
-      name: "Chandelier decor",
-      subcategorySlug: "decorative-accessories",
-      price: 95,
-      description:
-        "Ornate hanging crystal chandelier decor piece adding regal brilliance to canopies, arches, and stage ceilings.",
-      keywords: ["chandelier", "crystal", "lighting", "decor", "hanging"],
-      totalStock: 2,
-      images: ["/images/Chandelier-decor.jpg"],
-    },
-  ],
+  
   "cake-stands-treat-tables": [
     {
-      name: "Vintage White Sweet & Treat Cart",
+      name: "Candy Cart",
       subcategorySlug: "treat-displays",
       price: 250,
       description:
@@ -588,7 +563,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       images: ["/images/candy-cart.jpg"],
     },
     {
-      name: "Decorative Treat Cart",
+      name: "Candy Cart",
       subcategorySlug: "treat-displays",
       price: 350,
       description:
@@ -600,35 +575,42 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       images: ["/images/treat-cart.jpg"],
     },
     {
-      name: "Three-Tier Crystal Wedding Cake Stand",
+      name: "Luxury White and Gold Balloon Backdrop with Mirrored Dessert Display",
       subcategorySlug: "cake-stands",
-      price: 40,
+      price: 35,
       description:
-        "Crystal-embellished three-tier pedestal stand for multi-layer wedding cakes, cupcakes, and dessert service.",
-      keywords: ["cake stand", "crystal", "tier"],
-      totalStock: 10,
-      images: ["/images/Three-Tier-Crystal-Wedding-Cake-Stand.jpg"],
+        "Luxury white and gold balloon backdrop with mirrored dessert display, perfect for showcasing cakes and treats at weddings and special events.",
+      keywords: ["balloon backdrop", "mirrored dessert display", "cake stand", "treat table"],
+      featured: true,
+      newProduct: true,
+      totalStock: 2,
+      images: ["/images/70.png"],
     },
     {
-      name: "Rustic White Wood Dessert Table — 6 ft",
-      subcategorySlug: "dessert-tables",
-      price: 80,
+      name: "Gold Metal Slatted Pedestal Display Stands – Set of 3",
+      subcategorySlug: "cake-stands",
+      price: 35,
       description:
-        "Distressed vintage white wood dessert table with lower shelving for rustic-chic dessert and treat presentations.",
-      keywords: ["dessert", "table", "vintage", "rustic"],
-      totalStock: 5,
-      images: ["/images/Rustic-White-Wood-Dessert-Table-6-ft.jpeg"],
+        "Gold metal slatted pedestal display stands – Set of 3, perfect for showcasing cakes and treats at weddings and special events.",
+      keywords: ["pedestal display", "gold stands", "cake stand", "treat table"],
+      featured: true,
+      newProduct: true,
+      totalStock: 2,
+      images: ["/images/71.png"],
     },
-    {
-      name: "Clear Acrylic Treat Display Risers — Set of 3",
-      subcategorySlug: "treat-displays",
-      price: 28,
+     {
+      name: "Natural Wood Hourglass Pedestal Stand – Sculptural Ribbed Design",
+      subcategorySlug: "cake-stands",
+      price: 35,
       description:
-        "Set of 3 seamless acrylic risers for displaying cupcakes, macarons, and artisanal petit fours at varied heights.",
-      keywords: ["treat", "display", "acrylic", "riser"],
-      totalStock: 12,
-      images: ["/images/Clear-Acrylic-Treat-Display-Risers-Set-of-3.jpeg"],
+        "Natural wood hourglass pedestal stand – sculptural ribbed design, perfect for showcasing cakes and treats at weddings and special events.",
+      keywords: ["pedestal display", "wood stands", "cake stand", "treat table"],
+      featured: true,
+      newProduct: true,
+      totalStock: 2,
+      images: ["/images/73.png"],
     },
+    
   ],
   entertainment: [
     {
@@ -643,93 +625,30 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       totalStock: 1,
       images: ["/images/photo-booth.jpg"],
     },
-    {
-      name: "All-White Luxury Castle Bounce House",
-      subcategorySlug: "bounce-house",
-      price: 295,
-      description:
-        "Aesthetic all-white luxury castle bounce house for birthdays, family festivals, and high-end celebrations.",
-      keywords: ["bounce house", "white castle", "entertainment"],
-      totalStock: 1,
-      images: ["/images/All-White-Luxury-Castle-Bounce-House.jpeg"],
-    },
   ],
-  
+ 
   "wedding-stage-designs": [
     {
-      name: "Grand Gala Ballroom Reception Setup",
+      name: "Luxury Gold-Draped Wedding Stage",
       subcategorySlug: "luxury-stage-decor",
       price: 3200,
       description:
-        "Complete royal ballroom transformation featuring mirror-top gold banquet dining tables, grand chandeliers, black & gold designer seating, and tiered floral candelabras.",
+        "Royal ballroom transformation featuring mirror-top gold banquet dining tables, grand chandeliers, black & gold designer seating, and tiered floral candelabras.",
       keywords: ["ballroom", "royal", "stage", "reception", "gold tables"],
       featured: true,
       newProduct: true,
       totalStock: 1,
-      images: ["/images/Grand-Gala-Ballroom-Reception-Setup.jpeg"],
+      images: ["/images/51.jpeg"],
     },
     {
-      name: "Grand Royalty Wedding Stage with Floral Pillars",
+      name: "Luxury White Wedding Dance Floor and Stage",
       subcategorySlug: "luxury-stage-decor",
       price: 2800,
       description:
         "Full luxury stage design with structural arches, fluted columns, custom florals, and ambient stage lighting concept.",
       keywords: ["stage", "luxury", "wedding", "design"],
       totalStock: 1,
-      images: ["/images/Grand-Royalty-Wedding-Stage-with-Floral-Pillars.jpeg"],
-    },
-    {
-      name: "Grand White & Gold Wedding Reception",
-      subcategorySlug: "luxury-stage-decor",
-      price: 2800,
-      description:
-        "Full luxury stage design with structural arches, fluted columns, custom florals, and ambient stage lighting concept.",
-      keywords: ["stage", "luxury", "wedding", "design"],
-      totalStock: 1,
-      images: ["/images/floral.jpg"],
-    },
-
-    {
-      name: "Bespoke Circular Ceremony Floral Arbor",
-      subcategorySlug: "ceremony-designs",
-      price: 950,
-      description:
-        "Custom circular ceremony arbor design with structural gold frame and full 360-degree styled white and blush florals.",
-      keywords: ["ceremony", "arbor", "custom", "circle"],
-      totalStock: 2,
-      images: ["/images/Bespoke-Circular-Ceremony-Floral-Arbor.jpeg"],
-    },
-    {
-      name: "Elegant White & Sage Wedding Tablescape",
-      subcategorySlug: "ceremony-designs",
-      price: 950,
-      description:
-        "",
-      keywords: ["ceremony", "tablescape", "white", "sage"],
-      totalStock: 2,
-      images: ["/images/Wedding-Tablescape.jpg"],
-    },
-
-    {
-      name: "Pink Pearl Wedding Setup",
-      subcategorySlug: "ceremony-designs",
-      price: 950,
-      description:
-        "Custom circular ceremony arbor design with structural gold frame and full 360-degree styled white and blush florals.",
-      keywords: ["ceremony", "arbor", "custom", "circle"],
-      totalStock: 2,
-      images: ["/images/pink-pearl.jpg"],
-    },
-
-    {
-      name: "Minimalist Elegance Stage Setup — Gold Framing",
-      subcategorySlug: "wedding-stages",
-      price: 2100,
-      description:
-        "Geometric gold framing, modern floating pedestals, and cascading floral runner design tailored to venue dimensions.",
-      keywords: ["stage", "wedding", "gold", "modern"],
-      totalStock: 1,
-      images: ["/images/Minimalist-Elegance-Stage-Setup-Gold-Framing.jpeg"],
+      images: ["/images/52.jpeg"],
     },
   ],
 };
