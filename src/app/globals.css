@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --ivory: #fbf9f5;
+  --champagne: #ede4d6;
+  --champagne-light: #f6f1e9;
+  --gold: #c89d66;
+  --gold-muted: #b58b54;
+  --gold-light: #dfba87;
+  --charcoal: #141312;
+  --charcoal-surface: #1e1c1b;
+  --warm-gray: #3e3935;
+  --warm-gray-muted: #665f58;
+  --background: #fbf9f5;
+  --foreground: #141312;
+}
+
+@theme inline {
+  --color-ivory: var(--ivory);
+  --color-champagne: var(--champagne);
+  --color-champagne-light: var(--champagne-light);
+  --color-gold: var(--gold);
+  --color-gold-muted: var(--gold-muted);
+  --color-gold-light: var(--gold-light);
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-surface: var(--charcoal-surface);
+  --color-warm-gray: var(--warm-gray);
+  --color-warm-gray-muted: var(--warm-gray-muted);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-dm-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.font-serif-italic {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-style: italic;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--gold) 40%, white);
+  color: var(--charcoal);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #e3c498 0%, #c89d66 50%, #ab7f49 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #ecd3ad 0%, #c89d66 60%, #9e733d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
