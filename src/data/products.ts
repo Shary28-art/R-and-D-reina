@@ -654,72 +654,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       images: ["/images/All-White-Luxury-Castle-Bounce-House.jpeg"],
     },
   ],
-  production: [
-    {
-      name: "Outdoor Marquee Tent & Banquet Pavilion",
-      subcategorySlug: "event-production",
-      price: 550,
-      description:
-        "Spacious all-weather white marquee canopy tent complete with long banquet dining tables and white folding ceremony chairs for outdoor celebrations.",
-      keywords: ["tent", "canopy", "marquee", "outdoor", "banquet"],
-      featured: true,
-      totalStock: 3,
-      images: ["/images/Outdoor-Marquee-Tent-Banquet-Pavilion.jpeg"],
-    },
-    {
-      name: "Wireless Warm Amber LED Uplighting Fixture",
-      subcategorySlug: "lighting",
-      price: 35,
-      description:
-        "Battery-powered wireless warm-white and amber LED fixture to wash walls, draping, and perimeter features.",
-      keywords: ["uplight", "lighting", "production", "led"],
-      totalStock: 24,
-      images: ["/images/Wireless-Warm-Amber-LED-Uplighting-Fixture.jpeg"],
-    },
-    {
-      name: "Heavyweight Velvet Pipe & Drape — 10 ft Section",
-      subcategorySlug: "event-production",
-      price: 85,
-      description:
-        "Black or ivory flame-retardant heavyweight velvet drape section with telescopic support uprights to divide spaces or create backdrops.",
-      keywords: ["drape", "pipe", "production", "velvet"],
-      totalStock: 20,
-      images: ["/images/Heavyweight-Velvet-Pipe-Drape-10-ft-Section.jpeg"],
-    },
-    {
-      name: "High-Gloss White Dance Floor — 12×12 ft",
-      subcategorySlug: "specialty-equipment",
-      price: 650,
-      description:
-        "Interlocking high-gloss white dance floor system with beveled perimeter edge. Seamless luxury floor covering 144 sq ft.",
-      keywords: ["dance floor", "production", "white", "gloss"],
-      totalStock: 2,
-      images: ["/images/High-Gloss-White-Dance-Floor-12×12-ft.jpeg"],
-    },
-  ],
-  balloons: [
   
-    {
-      name: "Organic Pastel & Chrome Balloon Garland — 10 ft",
-      subcategorySlug: "balloon-garlands",
-      price: 195,
-      description:
-        "Custom multi-size organic garland in your chosen palette with chrome and double-stuffed accents — installed on-site.",
-      keywords: ["balloon", "garland", "organic"],
-      totalStock: 5,
-      images: ["/images/Organic-Pastel-Chrome-Balloon-Garland-10-ft.jpeg"],
-    },
-    {
-      name: "Luxe Tabletop Balloon Bouquet",
-      subcategorySlug: "balloon-decor",
-      price: 45,
-      description:
-        "Weighted luxury tabletop bouquet coordinating with event color themes, featuring foil spheres and delicate ribbon.",
-      keywords: ["balloon", "bouquet", "table"],
-      totalStock: 15,
-      images: ["/images/Luxe-Tabletop-Balloon-Bouquet.jpeg"],
-    },
-  ],
   "wedding-stage-designs": [
     {
       name: "Grand Gala Ballroom Reception Setup",

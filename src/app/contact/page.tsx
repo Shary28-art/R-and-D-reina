@@ -93,26 +93,6 @@ export default function ContactPage() {
               </a>
             </div>
           </div>
-          <div className="overflow-hidden rounded-sm border border-black/10 bg-champagne/20 shadow-sm">
-            <iframe
-              title="R&D by Reina Location Map"
-              src="https://maps.google.com/maps?q=502+periwinkle+dr+mansfield+tx+76063&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              className="h-56 w-full border-0"
-              loading="lazy"
-              allowFullScreen
-            />
-            <div className="flex items-center justify-between p-3 text-xs bg-white">
-              <span className="text-charcoal font-medium">502 Periwinkle Dr, Mansfield, TX 76063</span>
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=502+Periwinkle+Dr,+Mansfield,+TX+76063"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-gold underline hover:text-charcoal"
-              >
-                Open in Maps →
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>

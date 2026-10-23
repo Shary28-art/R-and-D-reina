@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Flower2, Armchair, Sparkles, Gift } from "lucide-react";
 
 export function Hero() {
   return (
@@ -71,62 +70,6 @@ export function Hero() {
         </div>
       </section>
 
-      {/* Floating 4-Feature Banner directly beneath Hero (From Mockup) */}
-      <section className="relative z-20 mx-auto max-w-7xl px-4 -mt-10 md:-mt-14 mb-10 md:px-6">
-        <div className="grid grid-cols-1 divide-y divide-black/5 rounded-md bg-[#fdfbf7] p-4 shadow-xl ring-1 ring-gold/20 sm:grid-cols-2 sm:divide-y-0 sm:divide-x sm:divide-black/5 lg:grid-cols-4 lg:p-6">
-          {/* Feature 1: Floral Design */}
-          <div className="flex flex-col items-center text-center p-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-champagne/40 text-gold mb-3">
-              <Flower2 className="h-6 w-6" />
-            </div>
-            <h3 className="font-serif text-base font-semibold tracking-wider uppercase text-charcoal">
-              Floral Design
-            </h3>
-            <p className="mt-1.5 text-xs text-warm-gray leading-relaxed max-w-[210px]">
-              Exquisite floral arrangements tailored to your vision.
-            </p>
-          </div>
-
-          {/* Feature 2: Luxury Rentals */}
-          <div className="flex flex-col items-center text-center p-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-champagne/40 text-gold mb-3">
-              <Armchair className="h-6 w-6" />
-            </div>
-            <h3 className="font-serif text-base font-semibold tracking-wider uppercase text-charcoal">
-              Luxury Rentals
-            </h3>
-            <p className="mt-1.5 text-xs text-warm-gray leading-relaxed max-w-[210px]">
-              Premium furniture &amp; décor for every occasion.
-            </p>
-          </div>
-
-          {/* Feature 3: Event Styling */}
-          <div className="flex flex-col items-center text-center p-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-champagne/40 text-gold mb-3">
-              <Sparkles className="h-6 w-6" />
-            </div>
-            <h3 className="font-serif text-base font-semibold tracking-wider uppercase text-charcoal">
-              Event Styling
-            </h3>
-            <p className="mt-1.5 text-xs text-warm-gray leading-relaxed max-w-[210px]">
-              Bespoke themes and styling that leave a lasting impression.
-            </p>
-          </div>
-
-          {/* Feature 4: Custom Packages */}
-          <div className="flex flex-col items-center text-center p-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-champagne/40 text-gold mb-3">
-              <Gift className="h-6 w-6" />
-            </div>
-            <h3 className="font-serif text-base font-semibold tracking-wider uppercase text-charcoal">
-              Custom Packages
-            </h3>
-            <p className="mt-1.5 text-xs text-warm-gray leading-relaxed max-w-[210px]">
-              Personalized packages designed just for you.
-            </p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

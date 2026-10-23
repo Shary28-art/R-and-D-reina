@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Logo } from "@/components/layout/Logo";
 import { categories } from "@/data/categories";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, Clock } from "lucide-react";
 
 export function Footer() {
   return (
@@ -112,7 +112,7 @@ export function Footer() {
 
         <div>
           <h3 className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
-            Contact &amp; Studio
+            CONTACT AND
           </h3>
           <ul className="mt-4 space-y-3 text-xs text-champagne/80">
             <li className="flex items-center gap-2">
@@ -130,10 +130,6 @@ export function Footer() {
             <li className="flex items-center gap-2">
               <Clock className="h-3.5 w-3.5 text-gold shrink-0" />
               <span>Monday – Saturday: 9:00 AM – 6:00 PM</span>
-            </li>
-            <li className="flex items-start gap-2 pt-1">
-              <MapPin className="h-3.5 w-3.5 text-gold shrink-0 mt-0.5" />
-              <span>502 Periwinkle Dr, Mansfield, TX 76063</span>
             </li>
           </ul>
         </div>

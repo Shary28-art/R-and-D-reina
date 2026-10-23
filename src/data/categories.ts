@@ -143,30 +143,8 @@ export const categories: Category[] = [
       { name: "Bounce House", slug: "bounce-house" },
     ],
   },
-  {
-    name: "Production",
-    slug: "production",
-    navGroup: "rentals",
-    description: "Lighting, draping, flooring, and event production.",
-    image: "/images/Heavyweight-Velvet-Pipe-Drape-10-ft-Section.jpeg",
-    subcategories: [
-      { name: "Event Production", slug: "event-production" },
-      { name: "Lighting", slug: "lighting" },
-      { name: "Specialty Equipment", slug: "specialty-equipment" },
-    ],
-  },
-  {
-    name: "Balloons",
-    slug: "balloons",
-    navGroup: "decor",
-    description: "Garlands, installations, and custom balloon design.",
-    image: "/images/Organic-Pastel-Chrome-Balloon-Garland-10-ft.jpeg",
-    subcategories: [
-      { name: "Balloon Garlands", slug: "balloon-garlands" },
-      { name: "Balloon Installations", slug: "balloon-installations" },
-      { name: "Balloon Décor", slug: "balloon-decor" },
-    ],
-  },
+  
+  
   {
     name: "Wedding & Stage Designs",
     slug: "wedding-stage-designs",
