@@ -27,7 +27,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 11,
-      images: ["/images/Round-table.jpg"],
+      images: ["/images/round table.avif"],
     },
     {
       name: "Rectangular table 6ft",
