@@ -27,7 +27,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       featured: true,
       bestSeller: true,
       totalStock: 11,
-      images: ["/images/round table.avif"],
+      images: ["/images/90.png"],
     },
     {
       name: "Rectangular table 6ft",
@@ -37,7 +37,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
         "Standard 6-foot rectangular folding banquet tables seating 6 to 8 guests. Perfect for catering lines, beverage stations, and banquet dining rows.",
       keywords: ["rectangular table 6ft", "banquet table", "6ft table", "folding table"],
       totalStock: 15,
-      images: ["/images/Rectangular-table-6ft.jpg"],
+      images: ["/images/92.png"],
     },
     {
       name: "Rectangular table 8ft",
@@ -48,7 +48,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
       keywords: ["rectangular table 10ft", "long table", "farm table", "head table"],
       bestSeller: true,
       totalStock: 10,
-      images: ["/images/Rectangular-table-10ft.jpg"],
+      images: ["/images/93.png"],
     },
   ],
   chairs: [
@@ -551,7 +551,7 @@ const catalogSeeds: Record<string, SeedItem[]> = {
   
   "cake-stands-treat-tables": [
     {
-      name: "Candy Cart",
+      name: "Treat Street",
       subcategorySlug: "treat-displays",
       price: 250,
       description:
