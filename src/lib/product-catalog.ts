@@ -20,14 +20,21 @@ export function filterProducts(filters: ProductFilters): Product[] {
 
   if (filters.query?.trim()) {
     const q = filters.query.trim().toLowerCase();
-    result = result.filter(
-      (p) =>
-        p.name.toLowerCase().includes(q) ||
-        p.description.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q) ||
-        p.subcategory.toLowerCase().includes(q) ||
-        p.keywords.some((k) => k.toLowerCase().includes(q)),
+    const categoryMatches = result.filter(
+      (p) => p.category.toLowerCase() === q,
     );
+
+    result =
+      categoryMatches.length > 0
+        ? categoryMatches
+        : result.filter(
+            (p) =>
+              p.name.toLowerCase().includes(q) ||
+              p.description.toLowerCase().includes(q) ||
+              p.category.toLowerCase().includes(q) ||
+              p.subcategory.toLowerCase().includes(q) ||
+              p.keywords.some((k) => k.toLowerCase().includes(q)),
+          );
   }
 
   if (filters.categorySlug) {
